@@ -9,7 +9,7 @@ namespace TDD_IO2
 		public static int Calculate(String s)
 		{
 			if (String.IsNullOrWhiteSpace(s))
-				return 0;
+				return int.MinValue;
 
 			string[] localDelimeters = delimeters;
 			if (s.Length >= 3 && s.Substring(0, 2) == "//")
