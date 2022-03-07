@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_IO2", "TDD_IO2\TDD_IO2.csproj", "{DFBD4757-810F-40A6-9DD7-ECBB3DE1DA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorTests", "StringCalculatorTests\StringCalculatorTests.csproj", "{8A1E333F-1131-4327-A4E6-C79853889744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFBD4757-810F-40A6-9DD7-ECBB3DE1DA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBD4757-810F-40A6-9DD7-ECBB3DE1DA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBD4757-810F-40A6-9DD7-ECBB3DE1DA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBD4757-810F-40A6-9DD7-ECBB3DE1DA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1E333F-1131-4327-A4E6-C79853889744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1E333F-1131-4327-A4E6-C79853889744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1E333F-1131-4327-A4E6-C79853889744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1E333F-1131-4327-A4E6-C79853889744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21193706-A449-4E16-A4A2-598AFA3B760E}
+	EndGlobalSection
+EndGlobal
