@@ -8,6 +8,9 @@ namespace TDD_IO2
 
 		public static int Calculate(String s)
 		{
+			if (String.IsNullOrEmpty(s))
+				return 0;
+
 			if (String.IsNullOrWhiteSpace(s))
 				return 0;
 
